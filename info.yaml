@@ -1,9 +1,8 @@
-
 yaml_version: 6
 
 project:
   title: "I2C Master Controller"
-  author: "Your Name"
+  author: "Nandhakishoore K"
   description: "Single-byte I2C Master Controller"
   language: "Verilog"
   clock_hz: 10000000
@@ -28,26 +27,17 @@ pinout:
   uo[0]: "busy"
   uo[1]: "done"
   uo[2]: "ack"
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[3]: "reserved"
+  uo[4]: "reserved"
+  uo[5]: "reserved"
+  uo[6]: "reserved"
+  uo[7]: "reserved"
 
   uio[0]: "sda"
   uio[1]: "scl"
-  uio[2]: ""
-  uio[3]: ""
-  uio[4]: ""
-  uio[5]: ""
-  uio[6]: ""
-  uio[7]: ""
-
-  ua[0]: ""
-  ua[1]: ""
-  ua[2]: ""
-  ua[3]: ""
-  ua[4]: ""
-  ua[5]: ""
-  ua[6]: ""
-  ua[7]: ""
+  uio[2]: "unused"
+  uio[3]: "unused"
+  uio[4]: "unused"
+  uio[5]: "unused"
+  uio[6]: "unused"
+  uio[7]: "unused"
